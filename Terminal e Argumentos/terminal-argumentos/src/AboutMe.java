@@ -1,10 +1,10 @@
 public class AboutMe {
-    public static void main(String[] argv) throws Exception {
-        String nome = argv[0];
-        String sobrenome = argv[1];
+    public static void main(String[] args) throws Exception {
+        String nome = args[0];
+        String sobrenome = args[1];
 
-        int idade = Integer.valueOf(argv[2]);
-        double altura = Double.valueOf(argv[3]);
+        int idade = Integer.valueOf(args[2]);
+        double altura = Double.valueOf(args[3]);
 
         System.out.println("Olá, meu nome é: " + nome + " " + sobrenome);
         System.out.println("Minha idade é: " + idade + " anos");
